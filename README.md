@@ -22,3 +22,6 @@ An experiment consists of running the old code in production and the new code at
 * Re-run the tests from `TodaysTraffic` or `TomorrowsTraffic`, they should be failing now with a long error message. At the end of the error message you should see the difference between the outcome of the `NewDependency` and the `DependencyYouWannaReplace`.
 * Implement logic in `NewDependency` until all the tests for `TodaysTraffic` pass.
 * Check what happens now with tomorrow's traffic :)
+
+
+Credits: Kata created while working as Agile Tech Coach for [SunwebGroup](https://www.sunwebgroup.com/).
