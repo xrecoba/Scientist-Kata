@@ -25,6 +25,8 @@ public class DependencyYouWannaReplace
             case 696: return 5;
             case 841: return 12;
             case 1113: return 22;
+            case 718: return 1;
+            case 559: return 2;
         }
 
         return 0;

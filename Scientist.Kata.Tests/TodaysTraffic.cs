@@ -49,7 +49,7 @@ public class TodaysTraffic : ScientistUnitTester
     public void RequestNumber4()
     {
         _sut.CalculateStockRefill(new ItemInfo(
-            "Hamburguer",
+            "Milk",
             8, 
             20, 
             0), WeatherForecast.Sunny);
@@ -99,9 +99,9 @@ public class TodaysTraffic : ScientistUnitTester
     public void RequestNumber9()
     {
         _sut.CalculateStockRefill(new ItemInfo(
-            "Chicken",
-            0,
-            5,
+            "Bananas",
+            3,
+            8,
             0), WeatherForecast.Sunny);
     }
 }
