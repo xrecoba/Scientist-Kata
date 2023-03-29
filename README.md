@@ -1,13 +1,13 @@
 # Scientist-Kata
-Goal: Kata to practice the Scientist technique
+Goal: Kata to practice the Scientist technique 
 
 # Situation
-Imagine you are the new developer working for a restaurant high in the mountains.
+Imagine you are the new developer working for a restaurant high in the mountains 🏔️🏔️.
 
 There's a piece of Software in charge of deciding how will stock be refilled on a daily basis, and a function in in particular which is in charge of deciding how much of an item should we buy.
 The rationale behind that function is fuzzy, looks like the decision depends on the weather, the stock and who knows what else. To make it worse, the implementation giberish, so you have decided to rewrite it from scratch to get a better understanding of the system.
 
-You'd like to avoid running risks while gaining ownership of that code since you don't wanna mess up with stock. To refactor that code in a safe way, you have decided to use a Scientist approach:
+You'd like to avoid running risks while gaining ownership of that code since you don't wanna mess up with stock. To refactor that code in a safe way, you have decided to use a Scientist approach 🧪:
 
 > The idea is to create an alternative implementation of the code and then run multiple experiments to compare how does the new implementation behave in comparison to the old one.
 An experiment consists of running the old code in production and the new code at the same time and then comparing the results. Once results are the same for a good bunch of your traffic then you can be confident that the behavior is the same (or almost, some cases may be uncovered with production traffic).
