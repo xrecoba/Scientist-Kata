@@ -31,18 +31,6 @@
             "type": "process",
             "args": [
                 "watch",
-                "run",
-                "--project",
-                "${workspaceFolder}/Scientist.Kata.Tests/ScientistKata.Tests.csproj"
-            ],
-            "problemMatcher": "$msCompile"
-        },
-        {
-            "label": "watch2",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "watch",
                 "test",
                 "--project",
                 "${workspaceFolder}/Scientist.Kata.Tests/ScientistKata.Tests.csproj"
