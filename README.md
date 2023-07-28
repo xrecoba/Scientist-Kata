@@ -23,5 +23,7 @@ An experiment consists of running the old code in production and the new code at
 * Implement logic in `NewDependency` until all the tests for `TodaysTraffic` pass.
 * Check what happens now with tomorrow's traffic :)
 
+# Start codespaces
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/xrecoba/Scientist-Kata?quickstart=1)
 
 Credits: Kata created while working as Agile Tech Coach for [SunwebGroup](https://www.sunwebgroup.com/).
